@@ -9,3 +9,4 @@
   When the SetCount value is change the old value is stored in count and new value in setCount and continues.
 
 NOTE : Only the component file is added
+![image](https://github.com/kaligone/100-Days-Of-ReactJs/assets/61344302/d515f49f-ef1a-4df7-afd1-5f9bc916031a)
