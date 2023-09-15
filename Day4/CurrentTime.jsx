@@ -26,12 +26,8 @@ const CurrentTime = () => {
                 <div className="bg-cyan-500 shadow-lg shadow-cyan-500/50 rounded-2xl flex flex-wrap justify-center items-center content-center">
                 <h1 className="text-white text-6xl p-20 ">{time}</h1>
                 </div>
-                
-                {/* <button onClick={changeTime} className="w-42 bg-blue-500 font-bold px-8 py-3 text-white rounded hover:bg-blue-700">Click to current time</button> */}
             </div>
-            {/* <div className="flex flex-col h-screen w-full ">
-                <img className="object-fill" src="https://e1.pxfuel.com/desktop-wallpaper/889/148/desktop-wallpaper-sad-backgrounds-music-dramatic-cinematic-music-instrumental-background-sad.jpg"></img>
-            </div> */}
+
         </>
     )
 }
