@@ -35,7 +35,6 @@ const DarkMode = () =>{
 
     const changeTheme = () =>{
         //check if the dark mode , if yes on click change light mode
-
         if (oldBackColor === '#1e293b') {
             changeToLight();
         } else { // if not dark mode then currenlty in light mode , then on click change to the dark mode
@@ -45,7 +44,6 @@ const DarkMode = () =>{
 
     return(
         <>
-            {/* <div className="bg-slate-800 h-screen flex flex-col justify-center items-center"> */}
             <div style={{backgroundColor:oldBackColor, transition:'all ease 0.5s'}} className=" h-screen flex flex-col justify-center items-center">
                 <button onClick={changeTheme} style={{color:oldTextColor}} className=" border-blue-700 border-4 font-bold text-lg px-14 py-5 rounded-xl hover:bg-blue-700 shadow-lg shadow-blue-500/50">{oldTheme}</button>
             </div>
